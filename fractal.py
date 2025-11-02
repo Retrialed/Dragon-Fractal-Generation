@@ -88,14 +88,14 @@ x = cosine * r
 y = sine * r
 
 initial_shape =  ((-300, 0), (74.19915379779962, 242.02302109782485), (300, 0), (-300, 0))
+turning_scheme = (0, 0, 1) #(0, 1) is default
 percentx = x
 percenty = y
 order = 16
-turning_scheme = (0, 0, 1) #(0, 1) is default
-margin = (300, 500, 300, 500) #starts from top then clockwise
+margin = (100, 100, 100, 100) #starts from top then clockwise
 xshift = 50
-yshift = -330
-scale = 2
+yshift = -0
+scale = 1
 initial_shape = tuple((x * scale, y * scale) for x, y in initial_shape)
 
 initial_color = "red"
